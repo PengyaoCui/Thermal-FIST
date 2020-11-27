@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/cuipengyao/Thermal-FIST/1807.02079/build/Thermal-FIST/src/gui/QtThermalFIST/QtThermalFIST_autogen",
+	"CMAKE_BINARY_DIR" : "/home/cuipengyao/Thermal-FIST/1807.02079/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/cuipengyao/Thermal-FIST/1807.02079/build/Thermal-FIST/src/gui/QtThermalFIST",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/cuipengyao/Thermal-FIST/1807.02079/Thermal-FIST/src/gui/QtThermalFIST",
+	"CMAKE_SOURCE_DIR" : "/home/cuipengyao/Thermal-FIST/1807.02079",
+	"INCLUDE_DIR" : "/home/cuipengyao/Thermal-FIST/1807.02079/build/Thermal-FIST/src/gui/QtThermalFIST/QtThermalFIST_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/cuipengyao/Thermal-FIST/1807.02079/Thermal-FIST/src/gui/QtThermalFIST/images/knu.png",
+		"/home/cuipengyao/Thermal-FIST/1807.02079/Thermal-FIST/src/gui/QtThermalFIST/images/fias.png",
+		"/home/cuipengyao/Thermal-FIST/1807.02079/Thermal-FIST/src/gui/QtThermalFIST/images/FIST.png",
+		"/home/cuipengyao/Thermal-FIST/1807.02079/Thermal-FIST/src/gui/QtThermalFIST/images/Goethe-Uni.png",
+		"/home/cuipengyao/Thermal-FIST/1807.02079/Thermal-FIST/src/gui/QtThermalFIST/images/FIST-about.png"
+	],
+	"LOCK_FILE" : "/home/cuipengyao/Thermal-FIST/1807.02079/build/Thermal-FIST/src/gui/QtThermalFIST/CMakeFiles/QtThermalFIST_autogen.dir/AutoRcc_qttfres_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qttfres" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qttfres.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/cuipengyao/Thermal-FIST/1807.02079/build/Thermal-FIST/src/gui/QtThermalFIST/CMakeFiles/QtThermalFIST_autogen.dir/AutoRcc_qttfres_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/cuipengyao/Thermal-FIST/1807.02079/Thermal-FIST/src/gui/QtThermalFIST/qttfres.qrc",
+	"VERBOSITY" : 0
+}

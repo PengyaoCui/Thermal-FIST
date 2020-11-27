@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/1807.02079.Fits.dir/1807.02079.Fits.cpp.o  -o ../1807.02079.Fits  ../lib/libThermalFIST.a ../lib/libMinuit2.a 
