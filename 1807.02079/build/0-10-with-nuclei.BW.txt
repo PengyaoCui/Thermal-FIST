@@ -1,0 +1,31 @@
+Thermal fit to /home/cuipengyao/Thermal-FIST/1807.02079/Thermal-FIST/input/../../input/data/ALICE-PbPb2.76TeV-0-10-all-symmetrized-nuclei.dat within ThermalModelIdeal
+
+Performed on 01-12-2020 at 11:45:05
+
+chi2/dof = 21.5189/10 = 2.15189
+
+Data description accuracy = (19.88 +- 10.68) %
+
+Extracted parameters:
+         T[MeV] =         154.919 +- 1.82805        
+          R[fm] =         10.2632 +- 0.382049       	         V[fm3] =         4528.28 +- 505.699        
+       muB[MeV] =               0 (FIXED)
+       muQ[MeV] =               0 (FIXED)
+       muS[MeV] =               0 (FIXED)
+         gammaq =               1 (FIXED)
+         gammaS =               1 (FIXED)
+
+
+Yields:
+                      pi+ Experiment:          668.75 +- 47.5            Model: 589.215         Std.dev.: -1.67443        
+                       K+ Experiment:           99.75 +- 8.25            Model: 103.603         Std.dev.: 0.467046        
+                      K0S Experiment:             100 +- 8               Model: 101.088         Std.dev.: 0.135945        
+                phi(1020) Experiment:           12.75 +- 1.59            Model: 12.9375         Std.dev.: 0.117953        
+                        p Experiment:           30.75 +- 2.5             Model: 38.4251         Std.dev.: 3.07003         
+                   Lambda Experiment:              24 +- 2.5             Model: 19.9201         Std.dev.: -1.63194        
+                     Ksi- Experiment:           3.335 +- 0.238           Model: 2.94448         Std.dev.: -1.64082        
+                    Omega Experiment:           0.595 +- 0.1             Model: 0.477448        Std.dev.: -1.17552        
+                 Deuteron Experiment:           0.097 +- 0.018           Model: 0.112629        Std.dev.: 0.8683          
+                      HE3 Experiment:        0.000285 +- 7.6e-05         Model: 0.000318233     Std.dev.: 0.437277        
+              HyperTriton Experiment:        0.000147 +- 4.2e-05         Model: 0.00010688      Std.dev.: -0.955234       
+                    Alpha Experiment:    9.500000e-07 +- 4.800000e-07    Model: 6.299651e-07    Std.dev.: -0.666739       

@@ -1,0 +1,27 @@
+Thermal fit to /home/cuipengyao/Thermal-FIST/1807.02079/Thermal-FIST/input/../../input/data/ALICE-PbPb2.76TeV-60-80-all-symmetrized.dat within ThermalModelIdeal
+
+Performed on 01-12-2020 at 11:45:27
+
+chi2/dof = 16.8253/6 = 2.80421
+
+Data description accuracy = (16.07 +- 7.81) %
+
+Extracted parameters:
+         T[MeV] =         154.368 +- 2.48503        
+          R[fm] =           3.579 +- 0.157839       	         V[fm3] =         192.032 +- 25.4067        
+       muB[MeV] =               0 (FIXED)
+       muQ[MeV] =               0 (FIXED)
+       muS[MeV] =               0 (FIXED)
+         gammaq =               1 (FIXED)
+         gammaS =               1 (FIXED)
+
+
+Yields:
+                      pi+ Experiment:          27.025 +- 1.55            Model: 22.8189         Std.dev.: -2.71359        
+                       K+ Experiment:             3.7 +- 0.3             Model: 4.21134         Std.dev.: 1.70448         
+                      K0S Experiment:             3.9 +- 0.2             Model: 4.1057          Std.dev.: 1.02848         
+                phi(1020) Experiment:            0.51 +- 0.07            Model: 0.534912        Std.dev.: 0.355884        
+                        p Experiment:          1.4325 +- 0.1425          Model: 1.44908         Std.dev.: 0.116385        
+                   Lambda Experiment:               1 +- 0.1             Model: 0.79754         Std.dev.: -2.0246         
+                     Ksi- Experiment:            0.12 +- 0.01            Model: 0.119918        Std.dev.: -0.00816123     
+                    Omega Experiment:           0.016 +- 0.003           Model: 0.0193667       Std.dev.: 1.12222         

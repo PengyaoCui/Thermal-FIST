@@ -1,0 +1,8 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
+
+include_directories ("${PROJECT_SOURCE_DIR}/include" "${PROJECT_BINARY_DIR}/include")
+add_executable (1906.03145.1 1906.03145.1.cpp)
+target_link_libraries (1906.03145.1 ThermalFIST)
+set_property(TARGET 1906.03145.1 PROPERTY FOLDER "1906.03145")
+install (TARGETS 1906.03145.1 RUNTIME DESTINATION ${PROJECT_BINARY_DIR}/bin)
+		 

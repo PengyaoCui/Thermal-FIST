@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 
-project (1906.03145)
+project (1906.03145.1)
 
 # ThermalFIST
 add_subdirectory(Thermal-FIST)
