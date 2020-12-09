@@ -31,5 +31,6 @@ src/CMakeFiles/1906.03145.1.dir/1906.03145.1.cpp.o: ../Thermal-FIST/include/HRGP
 src/CMakeFiles/1906.03145.1.dir/1906.03145.1.cpp.o: ../Thermal-FIST/include/HRGVDW.h
 src/CMakeFiles/1906.03145.1.dir/1906.03145.1.cpp.o: ../Thermal-FIST/include/HRGVDW/ThermalModelVDW.h
 src/CMakeFiles/1906.03145.1.dir/1906.03145.1.cpp.o: ../src/1906.03145.1.cpp
+src/CMakeFiles/1906.03145.1.dir/1906.03145.1.cpp.o: ../src/inc/loadFist.h
 src/CMakeFiles/1906.03145.1.dir/1906.03145.1.cpp.o: Thermal-FIST/include/ThermalFISTConfig.h
 
