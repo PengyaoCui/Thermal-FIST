@@ -39,7 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/thirdparty/Minuit2/cmake_install.cmake")
   include("/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/src/library/cmake_install.cmake")
   include("/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/src/gui/QtThermalFIST/cmake_install.cmake")
   include("/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/src/routines/cmake_install.cmake")

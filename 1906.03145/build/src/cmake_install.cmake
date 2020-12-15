@@ -55,8 +55,40 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 file(INSTALL DESTINATION "/home/cuipengyao/Thermal-FIST/1906.03145/build/bin" TYPE EXECUTABLE FILES "/home/cuipengyao/Thermal-FIST/1906.03145/build/1906.03145.1")
   if(EXISTS "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.1" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.1")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.1"
+         OLD_RPATH "/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib:"
+         NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.1")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.2" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.2")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.2"
+         RPATH "")
+  endif()
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.2")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/cuipengyao/Thermal-FIST/1906.03145/build/bin" TYPE EXECUTABLE FILES "/home/cuipengyao/Thermal-FIST/1906.03145/build/1906.03145.2")
+  if(EXISTS "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.2" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.2")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.2"
+         OLD_RPATH "/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/1906.03145.2")
     endif()
   endif()
 endif()

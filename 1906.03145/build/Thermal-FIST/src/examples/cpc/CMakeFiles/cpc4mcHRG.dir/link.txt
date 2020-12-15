@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11 -pedantic -O3 -DNDEBUG  -rdynamic CMakeFiles/cpc4mcHRG.dir/cpc4-mcHRG.cpp.o  -o ../../../../bin/examples/cpc4mcHRG  ../../../../lib/libThermalFIST.a ../../../../lib/libMinuit2.a 
+/usr/bin/c++   -std=c++11 -pedantic -O3 -DNDEBUG  -rdynamic CMakeFiles/cpc4mcHRG.dir/cpc4-mcHRG.cpp.o  -o ../../../../bin/examples/cpc4mcHRG -Wl,-rpath,/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib ../../../../lib/libThermalFIST.a /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so 

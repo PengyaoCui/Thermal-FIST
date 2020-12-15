@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "../../../../bin/examples/cpc3chi2NEQ"
-  "../../../../bin/examples/cpc3chi2NEQ.pdb"
   "CMakeFiles/cpc3chi2NEQ.dir/cpc3-chi2NEQ.cpp.o"
+  "../../../../bin/examples/cpc3chi2NEQ.pdb"
+  "../../../../bin/examples/cpc3chi2NEQ"
 )
 
 # Per-language clean rules from dependency scanning.

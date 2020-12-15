@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "../../../../bin/examples/PCE-Saha-LHC"
-  "../../../../bin/examples/PCE-Saha-LHC.pdb"
   "CMakeFiles/PCE-Saha-LHC.dir/PCE-Saha-LHC.cpp.o"
+  "../../../../bin/examples/PCE-Saha-LHC.pdb"
+  "../../../../bin/examples/PCE-Saha-LHC"
 )
 
 # Per-language clean rules from dependency scanning.

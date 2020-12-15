@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "../../../../bin/examples/CalculationTmu"
-  "../../../../bin/examples/CalculationTmu.pdb"
   "CMakeFiles/CalculationTmu.dir/CalculationTmu.cpp.o"
+  "../../../../bin/examples/CalculationTmu.pdb"
+  "../../../../bin/examples/CalculationTmu"
 )
 
 # Per-language clean rules from dependency scanning.

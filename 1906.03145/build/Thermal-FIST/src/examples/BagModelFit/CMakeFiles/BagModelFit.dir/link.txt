@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11 -pedantic -O3 -DNDEBUG  -rdynamic CMakeFiles/BagModelFit.dir/BagModelFit.cpp.o  -o ../../../../bin/examples/BagModelFit  ../../../../lib/libThermalFIST.a ../../../../lib/libMinuit2.a 
+/usr/bin/c++   -std=c++11 -pedantic -O3 -DNDEBUG  -rdynamic CMakeFiles/BagModelFit.dir/BagModelFit.cpp.o  -o ../../../../bin/examples/BagModelFit -Wl,-rpath,/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib: ../../../../lib/libThermalFIST.a /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so 

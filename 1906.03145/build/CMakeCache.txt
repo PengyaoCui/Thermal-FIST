@@ -223,7 +223,7 @@ EIGEN3_INCLUDE_DIR:STRING=/home/cuipengyao/Thermal-FIST/1906.03145/Thermal-FIST/
 INCLUDE_TESTS:BOOL=OFF
 
 //Path to a library.
-MINUIT2_LIB:FILEPATH=MINUIT2_LIB-NOTFOUND
+MINUIT2_LIB:FILEPATH=/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so
 
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
@@ -232,10 +232,10 @@ Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
 Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
 
 //The directory containing a CMake configuration file for Qt5PrintSupport.
-Qt5PrintSupport_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport
+Qt5PrintSupport_DIR:PATH=Qt5PrintSupport_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Widgets.
-Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
+Qt5Widgets_DIR:PATH=Qt5Widgets_DIR-NOTFOUND
 
 //Build Minuit2 within project instead of linking one from ROOT
 // distribution
@@ -245,7 +245,7 @@ STANDALONE_MINUIT:BOOL=OFF
 ThermalFIST_BINARY_DIR:STATIC=/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST
 
 //Dependencies for the target
-ThermalFIST_LIB_DEPENDS:STATIC=general;Minuit2;
+ThermalFIST_LIB_DEPENDS:STATIC=general;/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so;
 
 //Value Computed by CMake
 ThermalFIST_SOURCE_DIR:STATIC=/home/cuipengyao/Thermal-FIST/1906.03145/Thermal-FIST
@@ -267,9 +267,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/cuipengyao/Thermal-FIST/1906.03145/build
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=16
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=10
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -358,7 +358,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -370,7 +370,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.16
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.10
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG

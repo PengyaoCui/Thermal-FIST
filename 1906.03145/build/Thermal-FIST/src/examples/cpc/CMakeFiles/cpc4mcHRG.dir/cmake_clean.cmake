@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "../../../../bin/examples/cpc4mcHRG"
-  "../../../../bin/examples/cpc4mcHRG.pdb"
   "CMakeFiles/cpc4mcHRG.dir/cpc4-mcHRG.cpp.o"
+  "../../../../bin/examples/cpc4mcHRG.pdb"
+  "../../../../bin/examples/cpc4mcHRG"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "../../../../bin/routines/EVTablesGenerator"
-  "../../../../bin/routines/EVTablesGenerator.pdb"
   "CMakeFiles/EVTablesGenerator.dir/EVTablesGenerator.cpp.o"
+  "../../../../bin/routines/EVTablesGenerator.pdb"
+  "../../../../bin/routines/EVTablesGenerator"
 )
 
 # Per-language clean rules from dependency scanning.

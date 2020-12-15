@@ -1,27 +1,6 @@
 #include "inc/loadFist.h"
 
-
 bool our_frz_curve = false;
-
-void PrintData(const vector<FittedQuantity> &fitQuant, string name = ""){
-  cout << "The ";
-  if (name.size() != 0) cout << name << " ";
-  cout << "data to fit:" << endl;
-  for(int i = 0; i < fitQuant.size(); ++i){
-    if(fitQuant[i].toFit){
-      if (fitQuant[i].type == FittedQuantity::Multiplicity){
-        cout << setw(15) << fitQuant[i].mult.fPDGID
-       	<< setw(15) << fitQuant[i].Value()
-       	<< " +- " << fitQuant[i].ValueError() << endl;
-      }else {
-	cout << setw(15) << fitQuant[i].ratio.fPDGID1 << "/" << fitQuant[i].ratio.fPDGID2
-	<< setw(15) << fitQuant[i].Value()
-        << " +- " << fitQuant[i].ValueError() << endl;
-      }
-    }
-  }
-  cout << endl;
-}
 
 double muBss(double ecm){
   if (our_frz_curve) return 1.477 / (1. + 0.343 * ecm);
@@ -61,7 +40,7 @@ void DensitiesVsEcm(ThermalModelBase *model, double smin = 3., double smax = 300
   model->ConstrainMuC(true);
   model->SetQoverB(0.4);
 
-  double logSmin = log(smin);
+  double logSmin = log(smin);//log()=ln  log10()
   double logSmax = log(smax);
   double dlogS = (logSmax - logSmin) / iterss;
   for (int is = 0; is <= iterss; ++is){
