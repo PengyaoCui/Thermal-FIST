@@ -91,7 +91,7 @@ EVTablesGenerator_EXTERNAL_OBJECTS =
 bin/routines/EVTablesGenerator: Thermal-FIST/src/routines/EVTablesGenerator/CMakeFiles/EVTablesGenerator.dir/EVTablesGenerator.cpp.o
 bin/routines/EVTablesGenerator: Thermal-FIST/src/routines/EVTablesGenerator/CMakeFiles/EVTablesGenerator.dir/build.make
 bin/routines/EVTablesGenerator: lib/libThermalFIST.a
-bin/routines/EVTablesGenerator: /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so
+bin/routines/EVTablesGenerator: lib/libMinuit2.a
 bin/routines/EVTablesGenerator: Thermal-FIST/src/routines/EVTablesGenerator/CMakeFiles/EVTablesGenerator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cuipengyao/Thermal-FIST/1906.03145/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../bin/routines/EVTablesGenerator"
 	cd /home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/src/routines/EVTablesGenerator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EVTablesGenerator.dir/link.txt --verbose=$(VERBOSE)

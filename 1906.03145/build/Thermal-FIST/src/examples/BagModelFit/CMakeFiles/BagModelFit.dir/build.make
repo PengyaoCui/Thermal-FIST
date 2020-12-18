@@ -91,7 +91,7 @@ BagModelFit_EXTERNAL_OBJECTS =
 bin/examples/BagModelFit: Thermal-FIST/src/examples/BagModelFit/CMakeFiles/BagModelFit.dir/BagModelFit.cpp.o
 bin/examples/BagModelFit: Thermal-FIST/src/examples/BagModelFit/CMakeFiles/BagModelFit.dir/build.make
 bin/examples/BagModelFit: lib/libThermalFIST.a
-bin/examples/BagModelFit: /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so
+bin/examples/BagModelFit: lib/libMinuit2.a
 bin/examples/BagModelFit: Thermal-FIST/src/examples/BagModelFit/CMakeFiles/BagModelFit.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cuipengyao/Thermal-FIST/1906.03145/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../bin/examples/BagModelFit"
 	cd /home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/src/examples/BagModelFit && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BagModelFit.dir/link.txt --verbose=$(VERBOSE)

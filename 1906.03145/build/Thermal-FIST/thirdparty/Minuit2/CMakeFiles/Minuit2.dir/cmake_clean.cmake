@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "../../../lib/libMinuit2.a"
-  "../../../lib/libMinuit2.pdb"
   "CMakeFiles/Minuit2.dir/Minuit/src/AnalyticalGradientCalculator.cxx.o"
   "CMakeFiles/Minuit2.dir/Minuit/src/BasicMinimumError.cxx.o"
   "CMakeFiles/Minuit2.dir/Minuit/src/CombinedMinimumBuilder.cxx.o"
@@ -70,6 +68,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Minuit2.dir/Minuit/src/mntplot.cxx.o"
   "CMakeFiles/Minuit2.dir/Minuit/src/mnvert.cxx.o"
   "CMakeFiles/Minuit2.dir/Minuit/src/mnxerbla.cxx.o"
+  "../../../lib/libMinuit2.pdb"
+  "../../../lib/libMinuit2.a"
 )
 
 # Per-language clean rules from dependency scanning.

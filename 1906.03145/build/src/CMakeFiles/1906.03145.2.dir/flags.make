@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cuipengyao/Thermal-FIST/1906.03145/include -I/home/cuipengyao/Thermal-FIST/1906.03145/build/include -I/home/cuipengyao/Thermal-FIST/1906.03145/Thermal-FIST/include -I/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/include -I/home/cuipengyao/Thermal-FIST/1906.03145/Thermal-FIST/thirdparty/MersenneTwister 
+CXX_INCLUDES = -I/home/cuipengyao/Thermal-FIST/1906.03145/include -I/home/cuipengyao/Thermal-FIST/1906.03145/build/include -I/home/cuipengyao/Thermal-FIST/1906.03145/Thermal-FIST/include -I/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/include -I/home/cuipengyao/Thermal-FIST/1906.03145/Thermal-FIST/thirdparty/MersenneTwister -I/home/cuipengyao/Thermal-FIST/1906.03145/Thermal-FIST/thirdparty/Minuit2/Minuit/include 
 

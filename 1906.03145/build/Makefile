@@ -157,6 +157,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Minuit2
+
+# Build rule for target.
+Minuit2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Minuit2
+.PHONY : Minuit2
+
+# fast build rule for target.
+Minuit2/fast:
+	$(MAKE) -f Thermal-FIST/thirdparty/Minuit2/CMakeFiles/Minuit2.dir/build.make Thermal-FIST/thirdparty/Minuit2/CMakeFiles/Minuit2.dir/build
+.PHONY : Minuit2/fast
+
+#=============================================================================
 # Target rules for targets named ThermalFIST
 
 # Build rule for target.
@@ -299,6 +312,19 @@ PCE-Saha-LHC/fast:
 	$(MAKE) -f src/CMakeFiles/1906.03145.1.dir/build.make src/CMakeFiles/1906.03145.1.dir/build
 .PHONY : 1906.03145.1/fast
 
+#=============================================================================
+# Target rules for targets named 1906.03145.3
+
+# Build rule for target.
+1906.03145.3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1906.03145.3
+.PHONY : 1906.03145.3
+
+# fast build rule for target.
+1906.03145.3/fast:
+	$(MAKE) -f src/CMakeFiles/1906.03145.3.dir/build.make src/CMakeFiles/1906.03145.3.dir/build
+.PHONY : 1906.03145.3/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -311,6 +337,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Minuit2"
 	@echo "... ThermalFIST"
 	@echo "... EVTablesGenerator"
 	@echo "... BagModelFit"
@@ -322,6 +349,7 @@ help:
 	@echo "... PCE-Saha-LHC"
 	@echo "... 1906.03145.2"
 	@echo "... 1906.03145.1"
+	@echo "... 1906.03145.3"
 .PHONY : help
 
 

@@ -91,7 +91,7 @@ cpc2chi2_EXTERNAL_OBJECTS =
 bin/examples/cpc2chi2: Thermal-FIST/src/examples/cpc/CMakeFiles/cpc2chi2.dir/cpc2-chi2-vs-T.cpp.o
 bin/examples/cpc2chi2: Thermal-FIST/src/examples/cpc/CMakeFiles/cpc2chi2.dir/build.make
 bin/examples/cpc2chi2: lib/libThermalFIST.a
-bin/examples/cpc2chi2: /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so
+bin/examples/cpc2chi2: lib/libMinuit2.a
 bin/examples/cpc2chi2: Thermal-FIST/src/examples/cpc/CMakeFiles/cpc2chi2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cuipengyao/Thermal-FIST/1906.03145/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../bin/examples/cpc2chi2"
 	cd /home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/src/examples/cpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpc2chi2.dir/link.txt --verbose=$(VERBOSE)

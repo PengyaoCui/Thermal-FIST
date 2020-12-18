@@ -91,7 +91,7 @@ src/CMakeFiles/1906.03145.1.dir/1906.03145.1.cpp.o.provides.build: src/CMakeFile
 1906.03145.1: src/CMakeFiles/1906.03145.1.dir/1906.03145.1.cpp.o
 1906.03145.1: src/CMakeFiles/1906.03145.1.dir/build.make
 1906.03145.1: lib/libThermalFIST.a
-1906.03145.1: /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so
+1906.03145.1: lib/libMinuit2.a
 1906.03145.1: src/CMakeFiles/1906.03145.1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cuipengyao/Thermal-FIST/1906.03145/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../1906.03145.1"
 	cd /home/cuipengyao/Thermal-FIST/1906.03145/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/1906.03145.1.dir/link.txt --verbose=$(VERBOSE)

@@ -55,10 +55,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 file(INSTALL DESTINATION "/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/bin/routines" TYPE EXECUTABLE FILES "/home/cuipengyao/Thermal-FIST/1906.03145/build/bin/routines/EVTablesGenerator")
   if(EXISTS "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/bin/routines/EVTablesGenerator" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/bin/routines/EVTablesGenerator")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/bin/routines/EVTablesGenerator"
-         OLD_RPATH "/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib:"
-         NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/bin/routines/EVTablesGenerator")
     endif()

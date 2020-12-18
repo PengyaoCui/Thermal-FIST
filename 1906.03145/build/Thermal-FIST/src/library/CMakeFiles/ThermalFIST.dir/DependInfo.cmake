@@ -42,7 +42,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "USE_MINUIT"
-  "USE_ROOT"
   )
 
 # The include file search paths:
@@ -51,12 +50,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "Thermal-FIST/include"
   "../Thermal-FIST/thirdparty/MersenneTwister"
   "../Thermal-FIST/thirdparty/Eigen3"
-  "/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/include/root"
-  "/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/include"
+  "../Thermal-FIST/thirdparty/Minuit2/Minuit/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/thirdparty/Minuit2/CMakeFiles/Minuit2.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

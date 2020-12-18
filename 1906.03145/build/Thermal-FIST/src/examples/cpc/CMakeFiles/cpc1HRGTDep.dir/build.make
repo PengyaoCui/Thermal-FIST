@@ -91,7 +91,7 @@ cpc1HRGTDep_EXTERNAL_OBJECTS =
 bin/examples/cpc1HRGTDep: Thermal-FIST/src/examples/cpc/CMakeFiles/cpc1HRGTDep.dir/cpc1-HRG-TDep.cpp.o
 bin/examples/cpc1HRGTDep: Thermal-FIST/src/examples/cpc/CMakeFiles/cpc1HRGTDep.dir/build.make
 bin/examples/cpc1HRGTDep: lib/libThermalFIST.a
-bin/examples/cpc1HRGTDep: /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so
+bin/examples/cpc1HRGTDep: lib/libMinuit2.a
 bin/examples/cpc1HRGTDep: Thermal-FIST/src/examples/cpc/CMakeFiles/cpc1HRGTDep.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cuipengyao/Thermal-FIST/1906.03145/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../bin/examples/cpc1HRGTDep"
 	cd /home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/src/examples/cpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpc1HRGTDep.dir/link.txt --verbose=$(VERBOSE)

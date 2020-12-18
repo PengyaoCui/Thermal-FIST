@@ -91,7 +91,7 @@ PCE__Saha__LHC_EXTERNAL_OBJECTS =
 bin/examples/PCE-Saha-LHC: Thermal-FIST/src/examples/PCE/CMakeFiles/PCE-Saha-LHC.dir/PCE-Saha-LHC.cpp.o
 bin/examples/PCE-Saha-LHC: Thermal-FIST/src/examples/PCE/CMakeFiles/PCE-Saha-LHC.dir/build.make
 bin/examples/PCE-Saha-LHC: lib/libThermalFIST.a
-bin/examples/PCE-Saha-LHC: /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so
+bin/examples/PCE-Saha-LHC: lib/libMinuit2.a
 bin/examples/PCE-Saha-LHC: Thermal-FIST/src/examples/PCE/CMakeFiles/PCE-Saha-LHC.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cuipengyao/Thermal-FIST/1906.03145/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../bin/examples/PCE-Saha-LHC"
 	cd /home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/src/examples/PCE && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PCE-Saha-LHC.dir/link.txt --verbose=$(VERBOSE)

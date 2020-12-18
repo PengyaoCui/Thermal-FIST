@@ -91,7 +91,7 @@ CalculationTmu_EXTERNAL_OBJECTS =
 bin/examples/CalculationTmu: Thermal-FIST/src/examples/CalculationTmu/CMakeFiles/CalculationTmu.dir/CalculationTmu.cpp.o
 bin/examples/CalculationTmu: Thermal-FIST/src/examples/CalculationTmu/CMakeFiles/CalculationTmu.dir/build.make
 bin/examples/CalculationTmu: lib/libThermalFIST.a
-bin/examples/CalculationTmu: /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so
+bin/examples/CalculationTmu: lib/libMinuit2.a
 bin/examples/CalculationTmu: Thermal-FIST/src/examples/CalculationTmu/CMakeFiles/CalculationTmu.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cuipengyao/Thermal-FIST/1906.03145/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../bin/examples/CalculationTmu"
 	cd /home/cuipengyao/Thermal-FIST/1906.03145/build/Thermal-FIST/src/examples/CalculationTmu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CalculationTmu.dir/link.txt --verbose=$(VERBOSE)

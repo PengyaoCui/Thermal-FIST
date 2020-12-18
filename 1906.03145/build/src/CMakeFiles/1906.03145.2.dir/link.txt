@@ -1,1 +1,1 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/1906.03145.2.dir/1906.03145.2.cpp.o  -o ../1906.03145.2 -Wl,-rpath,/home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib: ../lib/libThermalFIST.a /home/cuipengyao/alice/sw/ubuntu1804_x86-64/ROOT/v6-16-00-1/lib/libMinuit2.so 
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/1906.03145.2.dir/1906.03145.2.cpp.o  -o ../1906.03145.2 ../lib/libThermalFIST.a ../lib/libMinuit2.a 
