@@ -1,0 +1,27 @@
+Thermal fit to /home/cuipengyao/Thermal-FIST/1906.03145/Thermal-FIST/input/../../input/data/pp/ALICE-pp7TeV-V0M-V-VI.dat within ThermalModelIdeal
+
+Performed on 18-12-2020 at 02:41:39
+
+chi2/dof = 34.5753/5 = 6.91506
+
+Data description accuracy = (22.31 +- 7.43) %
+
+Extracted parameters:
+         T[MeV] =         160.637 +- 2.42172        
+          R[fm] =         1.92871 +- 0.0706013      	         V[fm3] =         30.0529 +- 3.30031        
+       muB[MeV] =               0 (FIXED)
+       muQ[MeV] =               0 (FIXED)
+       muS[MeV] =               0 (FIXED)
+         gammaq =               1 (FIXED)
+         gammaS =        0.727016 +- 0.0234652      
+
+
+Yields:
+                      pi+ Experiment:           4.515 +- 0.210002        Model: 4.44637         Std.dev.: -0.326822       
+                       K+ Experiment:         0.58625 +- 0.0360535       Model: 0.611017        Std.dev.: 0.686939        
+                      K0S Experiment:          0.5798 +- 0.0294266       Model: 0.597983        Std.dev.: 0.6179          
+                phi(1020) Experiment:       0.0729956 +- 0.00749434      Model: 0.061893        Std.dev.: -1.48147        
+                        p Experiment:         0.25285 +- 0.0170518       Model: 0.285184        Std.dev.: 1.8962          
+                   Lambda Experiment:         0.16585 +- 0.011209        Model: 0.123065        Std.dev.: -3.817          
+                     Ksi- Experiment:          0.0185 +- 0.00141147      Model: 0.014941        Std.dev.: -2.52149        
+                    Omega Experiment:        0.001488 +- 0.000156541     Model: 0.00189911      Std.dev.: 2.62623         
