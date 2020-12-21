@@ -1,6 +1,5 @@
 #include "inc/loadFist.h"
 
-
 void PrepareModel(ThermalModelBase * &model, ThermalParticleSystem *parts, const string& ensemble, const string& width_scheme);
 void PrepareConfiguration(const string& syst, const string& ensemble, const string& width_scheme, const string& use_gs, double VcOverV);
 void PerformFits(const string& syst, const string& ensemble, const string& width_scheme, const string& use_gs, double VcOverV);
@@ -180,8 +179,7 @@ void PrepareConfiguration(const string& syst, const string& ensemble, const stri
     outputnames.push_back("ALICE-pp7TeV-V0M-IX-X");
     dNchdEta.push_back(3.08);
 
-  }
-  else if (syst == "pPb"){
+  }else if (syst == "pPb"){
 
     std::string datafolder = string(ThermalFIST_INPUT_FOLDER) + "/../../input/data/pPb";
 
@@ -383,7 +381,7 @@ void PerformFits(const string& syst, const string& ensemble, const string& width
     foutDep << setw(20) << fit.chi2ndf;
 
 
-    std::pair<double, double> accuracy = fitter.ModelDescriptionAccuracy();
+    std::pair<double, double> accuracy = fitter.ModelDescriptionAccuracy();//Returns a relative error of the data description (and its uncertainty estimate)
     foutDep << setw(20) << accuracy.first;
     foutDep << setw(20) << accuracy.second;
 
